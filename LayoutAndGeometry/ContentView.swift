@@ -6,10 +6,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-//        Text("Hello, World!")
-//        .padding(20)
-//        .background(Color.red)
-        Color.red
+        Text("Live long and prosper")
+            .offset(x: 50, y: 50)
+            .frame(width: 300, height: 300, alignment: .topLeading)
     }
 }
 
